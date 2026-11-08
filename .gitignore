@@ -1,0 +1,28 @@
+# Build outputs
+/bin/
+/gorebuild
+/gorebuild.exe
+*.test
+*.test.exe
+
+# Test coverage and profiling artifacts
+/coverage/
+coverage.out
+coverage.html
+*.prof
+*.pprof
+
+# Local environment files (keep examples tracked)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
